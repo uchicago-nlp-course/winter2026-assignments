@@ -1,0 +1,16 @@
+[project]
+name = "hw1-zipf-law"
+version = "0.1.0"
+description = "Assignment 1: Exploring Zipf's Law"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "datasets",
+    "tqdm",
+    "pandas",
+    "nltk",
+    "ipykernel",
+    "jupyterlab",
+    "powerlaw",
+]

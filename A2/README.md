@@ -1,8 +1,19 @@
-# CS257 NLP (W'25) Assignment 1
+# CS257 NLP (W'26) Assignment 2: Text Classification and Word2Vec
 
-We'll be using Python throughout the course. Make sure you have Python 3.12 or later installed. We recommend using [uv](https://docs.astral.sh/uv/) for package management.
+## Running on Google Colab (Recommended)
 
-## 1. Install uv
+The notebook is designed to run on Google Colab. Open `hw2_dist.ipynb` in Colab and run the setup cells which will:
+
+1. Clone the course repository
+2. Install required packages (`gensim`, `nltk`)
+
+Make sure that you set up the .py files correctly on Colab.
+
+## Running Locally
+
+If you prefer to run locally:
+
+### 1. Install uv
 
 If you don't have uv installed:
 
@@ -12,22 +23,16 @@ Or on macOS with Homebrew:
 
     brew install uv
 
-## 2. Create a virtual environment and install dependencies
+### 2. Create a virtual environment and install dependencies
 
 In this directory, run:
 
     uv sync
 
-## 3. Install additional packages
-
-For spacy `en_core_web_sm` run:
-
-    uv run python -m spacy download en_core_web_sm
-
-## 4. Run Jupyter Lab
+### 3. Run Jupyter Lab
 
     uv run jupyter lab
 
-## 5. Make sure you are using the right kernel
+### 4. Make sure you are using the right kernel
 
 Go to the toolbar of your .ipynb file and click on Kernel -> Change kernel. Select the Python kernel from this virtual environment.

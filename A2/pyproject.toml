@@ -1,0 +1,17 @@
+[project]
+name = "cs257-hw2"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "gensim",
+    "nltk",
+    "datasets",
+]

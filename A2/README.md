@@ -14,10 +14,10 @@ Make sure that you set up the .py files correctly on Colab.
 If you are unfamiliar with Google Colab (e.g., uploading files or enabling GPU), the following Stanford-provided tutorials may be helpful:
 
 - **CS224N Colab Guide**  
-  https://docs.google.com/document/d/1aNFgNKmdLCMYl8guJ2shGXa-PYCOVCtv5o65Z4Gf4A/edit
+  https://docs.google.com/document/d/1aNFgNKmdLCMYl8guJ2shGXa-PYCOVCtv5o65Z4GfF4A/edit?tab=t.0#heading=h.4tqnggp12z76
 
 - **Colab Tutorial Notebook**  
-  https://colab.research.google.com/drive/1vp_6RYqMhjVItz2MRhuWnBBmz4BJ30j
+  https://colab.research.google.com/drive/1vp_6RYYqMhjVIzt2MRhuWnBBmz4BJ30j
 
 ## Running Locally
 

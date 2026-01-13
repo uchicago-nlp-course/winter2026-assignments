@@ -9,6 +9,17 @@ The notebook is designed to run on Google Colab. Open `hw2_dist.ipynb` in Colab 
 
 Make sure that you set up the .py files correctly on Colab.
 
+## Reference: Google Colab Tutorials
+
+If you are unfamiliar with Google Colab (e.g., uploading files or enabling GPU), the following Stanford-provided tutorials may be helpful:
+
+- **CS224N Colab Guide**  
+  https://docs.google.com/document/d/1aNFgNKmdLCMYl8guJ2shGXa-PYCOVCtv5o65Z4Gf4A/edit
+
+- **Colab Tutorial Notebook**  
+  https://colab.research.google.com/drive/1vp_6RYqMhjVItz2MRhuWnBBmz4BJ30j
+
+
 ## Running Locally
 
 If you prefer to run locally:

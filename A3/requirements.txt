@@ -1,0 +1,17 @@
+torch
+transformers==4.57.3
+
+# HuggingFace datasets for SNLI
+datasets
+
+# Gensim for GloVe embeddings
+gensim
+
+# other general packages
+jupyter
+pandas
+matplotlib
+gpustat
+wandb
+scikit-learn
+nltk

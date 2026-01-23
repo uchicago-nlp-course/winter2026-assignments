@@ -1,0 +1,200 @@
+{"premise": "Two Asian girls hold a trash beg in front of a billboard.", "hypothesis": "Two boys hold a garbage can in front of a billboard.", "label": 2, "label_text": "contradiction"}
+{"premise": "A boy with blue socks and red pants and a shirt with prints on it jumps inside the house.", "hypothesis": "A girl is jumping in the house.", "label": 2, "label_text": "contradiction"}
+{"premise": "two basketball teams playing a game on the court.", "hypothesis": "Boys are playing soccer.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two dogs jumping for a ball, with a third carrying a Frisbee.", "hypothesis": "There are only two dogs outside playing games.", "label": 2, "label_text": "contradiction"}
+{"premise": "People wearing blue jerseys and gold pants play football.", "hypothesis": "They are in the championships.", "label": 1, "label_text": "neutral"}
+{"premise": "A small black and white dog on a leash stands next to a gray and white cat on the sidewalk.", "hypothesis": "A small dog stood next to a cat on the sidewalk.", "label": 0, "label_text": "entailment"}
+{"premise": "A man in a vest works outside.", "hypothesis": "a man works in the office", "label": 2, "label_text": "contradiction"}
+{"premise": "A man speckled with blue, orange and green paint over his upper body is holding up a camera.", "hypothesis": "A girl is having a icecream cone.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman in a gray sweater and black baseball cap is standing in line at a shop.", "hypothesis": "The woman is waiting in line to buy ice cream.", "label": 1, "label_text": "neutral"}
+{"premise": "Competitors getting ready to compete in a grand opening event hosted by the chief executive", "hypothesis": "The red carpet ceremony is just getting underway.", "label": 2, "label_text": "contradiction"}
+{"premise": "man wearing a beret riding a bicycle", "hypothesis": "Someone is riding a bicycle.", "label": 0, "label_text": "entailment"}
+{"premise": "A boy and a girl hidden behind tall weeds of green grass.", "hypothesis": "Two human beings are outdoors.", "label": 0, "label_text": "entailment"}
+{"premise": "A man walking on a roof with a kite flying overhead.", "hypothesis": "A man on a roof flying a kite.", "label": 0, "label_text": "entailment"}
+{"premise": "Man with black hat, coat, and pants sitting next to the door of a building.", "hypothesis": "A man with blue clothing sits next to a building", "label": 2, "label_text": "contradiction"}
+{"premise": "A child jumping from a small height to the sidewalk.", "hypothesis": "The child fell and got hurt because he landed wrong", "label": 2, "label_text": "contradiction"}
+{"premise": "The kitchen worker at a restaurant observes the dining room, including a man in a red jacket.", "hypothesis": "There is someone at the restaurant.", "label": 0, "label_text": "entailment"}
+{"premise": "A man on a motorcycle is riding in the street in the rain along with two green cabs and other vehicles.", "hypothesis": "a man is riding a motorcycle outside with other vehicles", "label": 1, "label_text": "neutral"}
+{"premise": "A woman at a bakery is baking pastries.", "hypothesis": "A female at a bakery is baking pastries.", "label": 0, "label_text": "entailment"}
+{"premise": "Two furry light brown dogs lying on a hardwood floor.", "hypothesis": "The dogs are playing outside.", "label": 2, "label_text": "contradiction"}
+{"premise": "People buying beverages from cashiers in orange shirts.", "hypothesis": "People are buying drinks.", "label": 0, "label_text": "entailment"}
+{"premise": "Two women are kickboxing.", "hypothesis": "Two women kickboxing.", "label": 0, "label_text": "entailment"}
+{"premise": "three women in black dresses walking down the street", "hypothesis": "Three women are wearing red and running.", "label": 2, "label_text": "contradiction"}
+{"premise": "People play in the fountain on a sunny day.", "hypothesis": "People are getting wet", "label": 0, "label_text": "entailment"}
+{"premise": "A contestant in a skiing contest passing a tree.", "hypothesis": "The contestant is at the beach", "label": 2, "label_text": "contradiction"}
+{"premise": "A boy is blowing bubble underwater.", "hypothesis": "A boy is blowing bubbles with his friend.", "label": 1, "label_text": "neutral"}
+{"premise": "A lady in a convent rolling dough in the kitchen.", "hypothesis": "A nun in the kitchen makes breakfast", "label": 1, "label_text": "neutral"}
+{"premise": "A man plays tennis.", "hypothesis": "A man is playing tennis.", "label": 0, "label_text": "entailment"}
+{"premise": "A motorist passing by and a group of people sitting on a bench.", "hypothesis": "A car passes people on a bench.", "label": 1, "label_text": "neutral"}
+{"premise": "An old man in a white tank top is itching his head.", "hypothesis": "the old man is thinking hard", "label": 1, "label_text": "neutral"}
+{"premise": "Two men are enjoying in the beach.", "hypothesis": "Two men are lying in the sun on the beach.", "label": 1, "label_text": "neutral"}
+{"premise": "A man in a black shirt appears to be jumping in the air holding two boards with a sign saying \"stomp\" in the background.", "hypothesis": "a woman chases a bird", "label": 2, "label_text": "contradiction"}
+{"premise": "A smiling young woman wearing a gray shirt is wearing a bag with a large black strap over her left shoulder.", "hypothesis": "A smiling young woman is carrying a bag with a large black strap with her.", "label": 0, "label_text": "entailment"}
+{"premise": "A baby girl in a light blue and pink dress leaning on a stone platform outdoors.", "hypothesis": "The baby is home playing nintendo.", "label": 2, "label_text": "contradiction"}
+{"premise": "A girl in a wheelchair with a red and white shirt has red dots all over her face.", "hypothesis": "The girl is at the dr.", "label": 1, "label_text": "neutral"}
+{"premise": "A family prepares to ride on the water.", "hypothesis": "A group of people are preparing for an activity.", "label": 0, "label_text": "entailment"}
+{"premise": "The boy wearing blue pants is in the midst of a back flip.", "hypothesis": "He is in a backflip competition.", "label": 1, "label_text": "neutral"}
+{"premise": "Three children playing on a beach.", "hypothesis": "Three children are inside playing nintendo", "label": 2, "label_text": "contradiction"}
+{"premise": "A brown dog is sitting in the front of a canoe.", "hypothesis": "A dog is sitting by a canoe", "label": 0, "label_text": "entailment"}
+{"premise": "A curly-haired girl is dragging a gray inflatable raft with a red paddle into the water.", "hypothesis": "The water is a nice temperature.", "label": 1, "label_text": "neutral"}
+{"premise": "An older man is looking at a woman in a yellow shirt while they sit on benches in front of a stone and plaster wall.", "hypothesis": "a man sleeps watching tv", "label": 2, "label_text": "contradiction"}
+{"premise": "Two people on a motor scooter ride past utility entrances to a building.", "hypothesis": "People on vehicles.", "label": 0, "label_text": "entailment"}
+{"premise": "A young infant is bathed in a small tub filled with sudsy water while the hands of its parents gently wash it.", "hypothesis": "The infant only has one parent who is washing it.", "label": 2, "label_text": "contradiction"}
+{"premise": "The soccer team is preparing to take a team picture before the game.", "hypothesis": "The soccer team smile brightly in a picture before the game.", "label": 1, "label_text": "neutral"}
+{"premise": "A young, Hispanic woman wearing a sundress is walking outside near a large fountain and palm trees.", "hypothesis": "A young woman is wearing a sundress.", "label": 0, "label_text": "entailment"}
+{"premise": "Two adults talk while a cloud of smoke fills the background.", "hypothesis": "One adult talking to himself.", "label": 2, "label_text": "contradiction"}
+{"premise": "A race car is drifting on the unpaved the road.", "hypothesis": "The driver is competing in a race.", "label": 1, "label_text": "neutral"}
+{"premise": "A woman sitting behind a counter at work is wearing a white lab coat, glasses, and gold jewelry as she reads leaflets that she is holding.", "hypothesis": "The employee in the lab coat is reading.", "label": 0, "label_text": "entailment"}
+{"premise": "A man wearing a mask is playing a banjo as people in green chairs sit and watch.", "hypothesis": "A man is playing a banjo.", "label": 0, "label_text": "entailment"}
+{"premise": "a child in a orange shirt standing on mulch.", "hypothesis": "The child is wearing clothes and standing.", "label": 0, "label_text": "entailment"}
+{"premise": "A man wearing a black top and a woman wearing a purple are riding a suzuki motorbike.", "hypothesis": "A man and a are riding a suzuki motorbike.", "label": 0, "label_text": "entailment"}
+{"premise": "A girl in a red sweater speaks into a megaphone.", "hypothesis": "The girl in red is speaking.", "label": 0, "label_text": "entailment"}
+{"premise": "Three people grilling out food in a park.", "hypothesis": "There are people in park", "label": 0, "label_text": "entailment"}
+{"premise": "A woman in a red coat walks past a man with a large beard.", "hypothesis": "A woman walks past a man.", "label": 0, "label_text": "entailment"}
+{"premise": "Several Israeli men standing in the middle of a busy intersection.", "hypothesis": "Men stand in the middle of an intersection.", "label": 0, "label_text": "entailment"}
+{"premise": "A man is riding a bull while some cowboys and other spectators lean on a fence behind him.", "hypothesis": "A woman is riding a bull while the clowns wait patiently.", "label": 2, "label_text": "contradiction"}
+{"premise": "A little boy is running on the beach barefoot.", "hypothesis": "It is a beautiful day at the beach", "label": 1, "label_text": "neutral"}
+{"premise": "A bike rider makes a jump on a halfpipe ramp.", "hypothesis": "A person is doing a jump up a ramp with a crowd of onlookers watching.", "label": 1, "label_text": "neutral"}
+{"premise": "Several young children standing in the sun.", "hypothesis": "Kids are standing in the sun.", "label": 0, "label_text": "entailment"}
+{"premise": "The lady in the blue shirt is waiting to cross the busy street.", "hypothesis": "The person in the blue shirt is waiting to cross the busy street.", "label": 0, "label_text": "entailment"}
+{"premise": "People going on a downhill kayak event.", "hypothesis": "Rich people at a sporting event.", "label": 1, "label_text": "neutral"}
+{"premise": "A group of men stand talking in front of a statute of a blue lion.", "hypothesis": "The group of men are talking standing in front of the blue lion statue.", "label": 0, "label_text": "entailment"}
+{"premise": "A blond woman is wearing yellow spaghetti strap shirt and sunglasses.", "hypothesis": "A woman is outside on a sunny day.", "label": 1, "label_text": "neutral"}
+{"premise": "An old, tired man is leading a donkey burdened down with loads of green weeds.", "hypothesis": "Everyone is tired.", "label": 1, "label_text": "neutral"}
+{"premise": "A young girl with blond-hair and blue eyes is eating a cookie with one hand while holding another cookie in the other.", "hypothesis": "The young girl is trying to multi-task", "label": 1, "label_text": "neutral"}
+{"premise": "A woman in a green dress looking at another woman's ring on a street.", "hypothesis": "A woman envying another woman.", "label": 1, "label_text": "neutral"}
+{"premise": "two old guys are sitting on a park bench", "hypothesis": "Two old guys sit on a bench in Central Park.", "label": 1, "label_text": "neutral"}
+{"premise": "Seven men chipping tiles with hammers.", "hypothesis": "The seven men are chipping tiles with a screwdriver.", "label": 2, "label_text": "contradiction"}
+{"premise": "Restaurant workers smile as they take a break, gathered around a huge copper bowl in the kitchen.", "hypothesis": "Restaurant workers are busy cooking food.", "label": 2, "label_text": "contradiction"}
+{"premise": "Excited couple jump as high as they can while they enjoy the view of the mountains.", "hypothesis": "A couple jump in excitement as they view the mountain.", "label": 0, "label_text": "entailment"}
+{"premise": "An Asian woman in a white shirt sitting in a blue chair.", "hypothesis": "A woman is standing in the kitchen.", "label": 2, "label_text": "contradiction"}
+{"premise": "A small white and black dog is running through a blue netted course while people watch.", "hypothesis": "A dog was jumping on the couch while people were dancing.", "label": 2, "label_text": "contradiction"}
+{"premise": "A black and white dog jumps high to get a green Frisbee.", "hypothesis": "The dog can jump.", "label": 0, "label_text": "entailment"}
+{"premise": "A wooly dog on a beach looks toward another dog in the water.", "hypothesis": "The dogs enjoy swimming.", "label": 1, "label_text": "neutral"}
+{"premise": "A boy is surfing.", "hypothesis": "A boy is surfing on a meteor heading for New York.", "label": 2, "label_text": "contradiction"}
+{"premise": "He is walking with a trash bag.", "hypothesis": "he hands are empty", "label": 2, "label_text": "contradiction"}
+{"premise": "Band performing at a show.", "hypothesis": "A band plays on stage.", "label": 0, "label_text": "entailment"}
+{"premise": "A dog leaps over a red and blue jump.", "hypothesis": "A dog leaps over a jump", "label": 0, "label_text": "entailment"}
+{"premise": "Two people standing up and playing musical instruments.", "hypothesis": "a marching band plays", "label": 2, "label_text": "contradiction"}
+{"premise": "Two men standing on a corner, one is smoking.", "hypothesis": "A man is smoking.", "label": 0, "label_text": "entailment"}
+{"premise": "A baby is seated between two young boys on a seat.", "hypothesis": "A baby girl is flanked by her brother on the sofa.", "label": 1, "label_text": "neutral"}
+{"premise": "Two people are in a river, one is a standing man and the other appears to be a child lying on his stomach with his chest and head above the water.", "hypothesis": "The man sits while the child stands in the river.", "label": 2, "label_text": "contradiction"}
+{"premise": "A dog with floppy ears runs on the grass, a fence behind it.", "hypothesis": "A dog with pointy ears sits still.", "label": 2, "label_text": "contradiction"}
+{"premise": "A young girl in a field of white flowers.", "hypothesis": "A young boy is outside looking at flowers.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two teams playing against each other, one red and one blue with two members squaring off.", "hypothesis": "The teams played in colors red and blue had two people play each other.", "label": 0, "label_text": "entailment"}
+{"premise": "The tennis player is hitting the ball with his racquet, while others watch the match.", "hypothesis": "A golfer is teeing off.", "label": 2, "label_text": "contradiction"}
+{"premise": "A young woman holds a beer during a party in a messy bedroom.", "hypothesis": "The woman is celebrating her birthday.", "label": 1, "label_text": "neutral"}
+{"premise": "A man in a black shirt and gray pants holds his luggage at what appears to be an airport.", "hypothesis": "The man is waiting to board the flight.", "label": 1, "label_text": "neutral"}
+{"premise": "Three dogs racing on a dirt track", "hypothesis": "Three odgs are running.", "label": 0, "label_text": "entailment"}
+{"premise": "A male and female are taking a picture in a vehicle.", "hypothesis": "A man and woman are walking in the park.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman in red is sitting on the edge of a steep rock.", "hypothesis": "A woman is lying down on a rock.", "label": 2, "label_text": "contradiction"}
+{"premise": "A man putting his dishes away.", "hypothesis": "A gentleman is picking up his dinner service.", "label": 0, "label_text": "entailment"}
+{"premise": "Two dogs chase a blue ball in a field.", "hypothesis": "Two dogs chase a spiked blue ball around a field.", "label": 1, "label_text": "neutral"}
+{"premise": "A black and white dog jumping over a hurdle.", "hypothesis": "There are two animals.", "label": 0, "label_text": "entailment"}
+{"premise": "A lot of men and motorcycles float on a canoe.", "hypothesis": "The group of people and their vehicles go down the river.", "label": 1, "label_text": "neutral"}
+{"premise": "a whole lot of people are on camels.", "hypothesis": "The camels are sleeping.", "label": 2, "label_text": "contradiction"}
+{"premise": "A group of traveling people relaxing on top of a hill overlooking a range.", "hypothesis": "A group of travelers are swimming in a river.", "label": 2, "label_text": "contradiction"}
+{"premise": "An adult and three children are rowing a canoe down a river.", "hypothesis": "A mother and her three children are rowing down a river.", "label": 1, "label_text": "neutral"}
+{"premise": "An individual is skiing or snowboarding", "hypothesis": "Someone skiing down a slope.", "label": 1, "label_text": "neutral"}
+{"premise": "Several people wearing baskets on their backs are standing next to each other.", "hypothesis": "The people have produce in their baskets.", "label": 1, "label_text": "neutral"}
+{"premise": "Two women and a man walking by an Armani billboard.", "hypothesis": "Three people are walking.", "label": 0, "label_text": "entailment"}
+{"premise": "A man is cleaning a diving board.", "hypothesis": "A man works to clean the muddy footprints kids have left on his diving board.", "label": 1, "label_text": "neutral"}
+{"premise": "Two black females walking in new york city.", "hypothesis": "The women are walking", "label": 0, "label_text": "entailment"}
+{"premise": "A blond boy is getting a haircut.", "hypothesis": "A boy is inside a shop.", "label": 1, "label_text": "neutral"}
+{"premise": "A smiling woman is camping in the snow and trees with pink flamingo toys.", "hypothesis": "The sun is blazing hot.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman is walking her dog across a street.", "hypothesis": "The woman and her dog are at a crosswalk.", "label": 1, "label_text": "neutral"}
+{"premise": "A man wearing a uniform and hat at an amusement park with people around.", "hypothesis": "The man  runs the rides.", "label": 1, "label_text": "neutral"}
+{"premise": "A woman in a black dress stands next to a pink bicycle.", "hypothesis": "A woman stands next to a unicycle.", "label": 2, "label_text": "contradiction"}
+{"premise": "A man lies next to the water on a beautiful day to enjoy the great view.", "hypothesis": "A man lies next to the water, looking among the cloudy sky", "label": 1, "label_text": "neutral"}
+{"premise": "The goalie with the blue and white jersey is sliding near the goal posts.", "hypothesis": "Someone is defending the goal", "label": 0, "label_text": "entailment"}
+{"premise": "a man and a woman walk in the park dressed for hot weather.", "hypothesis": "A pair of people are scantily clad", "label": 1, "label_text": "neutral"}
+{"premise": "A person on a balcony is standing next to some clothes drying on a line.", "hypothesis": "There is a person outdoors.", "label": 0, "label_text": "entailment"}
+{"premise": "Five men dressed in athletic apparel on a jog are along side a road beside a large field", "hypothesis": "Nobody is on a jog.", "label": 2, "label_text": "contradiction"}
+{"premise": "A man stands on a mountain overlooking trees and a lake.", "hypothesis": "The man is on flat ground.", "label": 2, "label_text": "contradiction"}
+{"premise": "A firefighter is shown trying to climb into some debris.", "hypothesis": "The pile of debri is the remains of a house.", "label": 1, "label_text": "neutral"}
+{"premise": "Four young women around a kitchen counter with a plate of brownies in the foreground.", "hypothesis": "A pink frosted cake with candles sits in front of women singing \"Happy Birthday\".", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman is sitting on a bus facing many brown houses.", "hypothesis": "not watched at alll", "label": 2, "label_text": "contradiction"}
+{"premise": "Behind a fence, a man in a white shirt grills meat.", "hypothesis": "The man is making steaks and hamburgers for his family and friends", "label": 1, "label_text": "neutral"}
+{"premise": "A male of African descent wearing a mostly red, beaded headdress.", "hypothesis": "A male of African descent is wearing some item of clothing", "label": 0, "label_text": "entailment"}
+{"premise": "A person is snowboarding wearing a helmet.", "hypothesis": "The snowboarder is waiting for a ski lift.", "label": 1, "label_text": "neutral"}
+{"premise": "Two men dressed in medieval theater garb simulate a brawl.", "hypothesis": "Two men dressed up in clothing about to duke it out.", "label": 0, "label_text": "entailment"}
+{"premise": "Race dog# 2 is ahead of a few other dogs.", "hypothesis": "The dogs are greyhounds.", "label": 1, "label_text": "neutral"}
+{"premise": "A man and a boy go hiking through the forest.", "hypothesis": "They brought a snack with them.", "label": 1, "label_text": "neutral"}
+{"premise": "A racetrack with red chairs stacked beside fence with a child walking.", "hypothesis": "A child walks by a go-cart rally", "label": 1, "label_text": "neutral"}
+{"premise": "A girl in a magenta shirt uses her cellphone while sitting near to two other people.", "hypothesis": "The girl is wearing green shirt", "label": 2, "label_text": "contradiction"}
+{"premise": "a man talks to a boy.", "hypothesis": "A dad is hugging his daughter.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two girls and a guy taking pictures with their cellphones.", "hypothesis": "The kids are fighting with their phones.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman in blue riding a bicycle past another woman and a man that are walking.", "hypothesis": "The bicycle seat is comfortable", "label": 1, "label_text": "neutral"}
+{"premise": "A boy wearing headphones sits on a woman's shoulders.", "hypothesis": "A boy listens to headphones", "label": 0, "label_text": "entailment"}
+{"premise": "A man climbs up a mountain.", "hypothesis": "The man is young.", "label": 1, "label_text": "neutral"}
+{"premise": "A woman in a red shirt sitting at a desk at a music academy.", "hypothesis": "A woman is doing homework", "label": 1, "label_text": "neutral"}
+{"premise": "Two children, a boy in a blue shirt and a girl in a white shirt, chasing a huge bubble.", "hypothesis": "the kids were trying to pop the bubble", "label": 1, "label_text": "neutral"}
+{"premise": "A little girl putting a red ball up to her mouth.", "hypothesis": "A little girl is holding a red ball near her mouth.", "label": 0, "label_text": "entailment"}
+{"premise": "The legs of a child playing hopscotch.", "hypothesis": "The children are being active.", "label": 0, "label_text": "entailment"}
+{"premise": "Two men are helping another man cross a stream.", "hypothesis": "Two men jump from a cliff into the water below while one swims to the boat.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two hot air balloons on a snowfield", "hypothesis": "There are two air ballons.", "label": 0, "label_text": "entailment"}
+{"premise": "There is a man sitting at a sewing machine outside behind a small brick house and talking to 3 other people.", "hypothesis": "The man is standing next to his kitchen stove.", "label": 2, "label_text": "contradiction"}
+{"premise": "A bearded man cuddles with a bear at the zoo.", "hypothesis": "A man with a beard is laying with a bear.", "label": 0, "label_text": "entailment"}
+{"premise": "A female teacher with kids.", "hypothesis": "Female teacher and children.", "label": 0, "label_text": "entailment"}
+{"premise": "a man is behind a cart trying to sell various food items.", "hypothesis": "A man stole some food from a cart.", "label": 2, "label_text": "contradiction"}
+{"premise": "A dog is playing with a hose.", "hypothesis": "A dog is sleeping", "label": 2, "label_text": "contradiction"}
+{"premise": "The dog that the two children are walking is looking up at a tree.", "hypothesis": "The kids' dog is looking at a squirrel.", "label": 1, "label_text": "neutral"}
+{"premise": "Two ladies are crossing a street right in front of a restaurant.", "hypothesis": "Two women are about to enter a restaurant.", "label": 1, "label_text": "neutral"}
+{"premise": "A person is on a small boat and going down some very strong water currents.", "hypothesis": "A person on a boat is on some very strong currents.", "label": 0, "label_text": "entailment"}
+{"premise": "A white curly-haired dog runs with a stick in its mouth.", "hypothesis": "A dog is running outside next to the river.", "label": 1, "label_text": "neutral"}
+{"premise": "Three men move across construction rafters on a building.", "hypothesis": "Three men walk across a bridge over a stream.", "label": 2, "label_text": "contradiction"}
+{"premise": "A group of people at a rodeo watching a cowboy being thrown from a white horse.", "hypothesis": "The horse is black", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman is walking on sand next to a body of water with mountains in the background.", "hypothesis": "Bill walks down 48th street in NYC.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman in her 30s is showing her mentally impaired daughter a photo on her cellphone.", "hypothesis": "A woman is showing her daughter a photo.", "label": 0, "label_text": "entailment"}
+{"premise": "It is an aerial picture of two men standing next to each other, one man is touching the other's shoulder.", "hypothesis": "Two men are painting a house.", "label": 2, "label_text": "contradiction"}
+{"premise": "A couple in bathing suits are holding hands and walking down the beach.", "hypothesis": "A couple is walking down an empty beach while watching the sunset.", "label": 1, "label_text": "neutral"}
+{"premise": "A crowd, including a police officer, watches as two women have a pillow fight.", "hypothesis": "The women are models, raising money for charity.", "label": 1, "label_text": "neutral"}
+{"premise": "A man with glasses and sideburns smiles with a woman for a picture.", "hypothesis": "Two people are posing for a photo.", "label": 0, "label_text": "entailment"}
+{"premise": "Three young men standing on partially snow-covered ground", "hypothesis": "Three young sad men standing on partially snow-covered ground", "label": 1, "label_text": "neutral"}
+{"premise": "Willie Nelson looking stage right while at the microphone.", "hypothesis": "famous man in this picture", "label": 0, "label_text": "entailment"}
+{"premise": "A black dog with a red collar wading through the water.", "hypothesis": "An animal is in th ewater.", "label": 0, "label_text": "entailment"}
+{"premise": "The crowd is watching the man in the red hoop.", "hypothesis": "The circus employee is entertaining the crowd with his red hoop.", "label": 1, "label_text": "neutral"}
+{"premise": "A man is wearing a white habit with black polka dots and smoking a cigarette.", "hypothesis": "The man is playing football.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two children dressed in black compete against one another in a martial art.", "hypothesis": "The children compete in a martial art in their white uniforms.", "label": 2, "label_text": "contradiction"}
+{"premise": "A woman calling her date, whom appears to be late.", "hypothesis": "A woman is playing video games.", "label": 2, "label_text": "contradiction"}
+{"premise": "A bulldozer on a beach with no water.", "hypothesis": "A bulldozer is stationary at the ocean", "label": 0, "label_text": "entailment"}
+{"premise": "A dog sleeping in an alley.", "hypothesis": "A kitten playing with a toy mouse.", "label": 2, "label_text": "contradiction"}
+{"premise": "The bungee jumper jumps off a tall building.", "hypothesis": "A man is trying bungee jumping for the second time.", "label": 1, "label_text": "neutral"}
+{"premise": "One shirtless kid holding a bird with a forest in the background.", "hypothesis": "A shirtless kid is holding his pet bunny rabbit.", "label": 2, "label_text": "contradiction"}
+{"premise": "A team of fishermen, half in the water and half on the beach, are net fishing off the shoreline.", "hypothesis": "A team is net fishing for salmon.", "label": 1, "label_text": "neutral"}
+{"premise": "A woman standing at an event.", "hypothesis": "A woman stands near an event.", "label": 0, "label_text": "entailment"}
+{"premise": "A woman and child are sitting at a table working on crafts.", "hypothesis": "a child was there", "label": 0, "label_text": "entailment"}
+{"premise": "A UW football player runs with the ball.", "hypothesis": "A football player.", "label": 0, "label_text": "entailment"}
+{"premise": "A pack of dogs fighting near a car in an alley.", "hypothesis": "The dogs are fighting.", "label": 0, "label_text": "entailment"}
+{"premise": "Several people preparing for winter sporting activities such as snowboarding and skiing.", "hypothesis": "Athletes ready themselves for the Winter Olympics.", "label": 1, "label_text": "neutral"}
+{"premise": "Three chefs in uniform are working in an assembly line to prepare pastries.", "hypothesis": "The chefs are making ham and mashed potatoes.", "label": 2, "label_text": "contradiction"}
+{"premise": "Two men in baseball hats and bright yellow shirts work behind a fence.", "hypothesis": "Two men are standing on top of a fence.", "label": 2, "label_text": "contradiction"}
+{"premise": "Three people sit around a table with a laptop and food on it.", "hypothesis": "Three people sit at a table with food and a laptop sitting on it.", "label": 0, "label_text": "entailment"}
+{"premise": "A row of men tending cows at a ranch.", "hypothesis": "The men are sitting on the couch watching tv.", "label": 2, "label_text": "contradiction"}
+{"premise": "A game of tennis is shown with one of the female players about to hit the ball.", "hypothesis": "A game of tennis with one of the female players about to miss the ball", "label": 2, "label_text": "contradiction"}
+{"premise": "Men in red bowties are singing in a choir.", "hypothesis": "Men in red ties studied quietly in a library.", "label": 2, "label_text": "contradiction"}
+{"premise": "A group of young women protest while holding flags.", "hypothesis": "A group of hairy men protest while holding flags.", "label": 2, "label_text": "contradiction"}
+{"premise": "A brown dog is resting its paws on a laptop keyboard.", "hypothesis": "A well trained dog is sending an email for its owner.", "label": 1, "label_text": "neutral"}
+{"premise": "The giraffe is facing to the left", "hypothesis": "The animal is facing to the right.", "label": 2, "label_text": "contradiction"}
+{"premise": "A white dog is running down a rocky beach.", "hypothesis": "A cat is sitting on the beach.", "label": 2, "label_text": "contradiction"}
+{"premise": "A young man sits on a chair with one shoe off.", "hypothesis": "Everyone is wearing two shoes.", "label": 2, "label_text": "contradiction"}
+{"premise": "In this picture, two children are opening presents.", "hypothesis": "Children are opening presents.", "label": 0, "label_text": "entailment"}
+{"premise": "A man in a green jacket is standing outside a store holding some money in front of his face.", "hypothesis": "A man celebrates finding money on the ground.", "label": 1, "label_text": "neutral"}
+{"premise": "Two girls lift a third girl.", "hypothesis": "Two girls are picking up another girl", "label": 0, "label_text": "entailment"}
+{"premise": "A girl gets caught in the rain.", "hypothesis": "A boy is playing outside on a sunny day.", "label": 2, "label_text": "contradiction"}
+{"premise": "Men dressed in either theatrical or historical attire riding horses.", "hypothesis": "The men are riding four wheelers.", "label": 2, "label_text": "contradiction"}
+{"premise": "There are three men having a conversation at a social place.", "hypothesis": "The men are all talking to each other", "label": 0, "label_text": "entailment"}
+{"premise": "A curly brown dog runs across the lawn carrying a toy in its mouth.", "hypothesis": "A dog is playing with another dog.", "label": 1, "label_text": "neutral"}
+{"premise": "Two small children are playing in a sprinkler system.", "hypothesis": "Two children are fighting.", "label": 2, "label_text": "contradiction"}
+{"premise": "People are on stage playing music to a group of people.", "hypothesis": "A group on stage are playing music to another group of people.", "label": 0, "label_text": "entailment"}
+{"premise": "A group of people are going down an escalator.", "hypothesis": "People are on an escalator", "label": 0, "label_text": "entailment"}
+{"premise": "A young boy is pushing a toy ATV around a rubber pool", "hypothesis": "A boy pushes a toy around the pool", "label": 0, "label_text": "entailment"}
+{"premise": "People on a brown-sand beach are holding a drift net used for fishing.", "hypothesis": "People are fishing together.", "label": 0, "label_text": "entailment"}
+{"premise": "Men putting together some sort of device.", "hypothesis": "men putting together a device", "label": 0, "label_text": "entailment"}
+{"premise": "A man wearing a green shirt and black pants catches a baseball, while a man in a gray shirt and black shorts runs over a base and a man in a blue shirt and dark blue shorts watches.", "hypothesis": "the men are asleep in the motel", "label": 2, "label_text": "contradiction"}
+{"premise": "Two women and two children sit at a bus stop.", "hypothesis": "The people are at a movie theater", "label": 2, "label_text": "contradiction"}
+{"premise": "Two women, one holding a plaque, one wearing a name badge, in a diner.", "hypothesis": "food plaque and winning", "label": 2, "label_text": "contradiction"}
+{"premise": "A young boy wearing a blue and red jacket is raking leaves.", "hypothesis": "A child is raking leaves.", "label": 0, "label_text": "entailment"}
+{"premise": "An art mural of a tree extends along a wall.", "hypothesis": "The art mural depicts an oak tree.", "label": 1, "label_text": "neutral"}
+{"premise": "Man with red, white and blue flag with one star holds it waving in the wind in the middle of a street while a crowd is seen in the background and water is sprayed.", "hypothesis": "A man has a red, white and black flag.", "label": 2, "label_text": "contradiction"}
+{"premise": "An older man with glasses wearing a black jacket and black hat.", "hypothesis": "The man is wearing a black jacket, a black hat, blue jeans, and a pink shirt.", "label": 1, "label_text": "neutral"}

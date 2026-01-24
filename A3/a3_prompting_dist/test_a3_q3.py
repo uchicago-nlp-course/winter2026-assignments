@@ -15,7 +15,7 @@ Submit both utils.py and A3-Q3.json to Gradescope.
 
 import json
 from pathlib import Path
-from typing import Any, Dict, List, Tuple, Optional
+from typing import Any, Dict
 from unittest.mock import Mock
 import traceback
 
@@ -27,100 +27,57 @@ test_results: Dict[str, Any] = {}
 
 
 # ==============================================================================
-# REFERENCE PROMPTS (from solution implementation)
+# REFERENCE PROMPTS (hardcoded for grading comparison)
 # ==============================================================================
 
-def build_snli_prompt_reference(
-    premise: str,
-    hypothesis: str,
-    method: str,
-    fewshot_examples: Optional[List[Tuple[str, str, str]]] = None,
-) -> str:
-    """Reference implementation for SNLI prompt building."""
-    if method == "cot" and fewshot_examples:
-        raise NotImplementedError(
-            "Few-shot CoT is not supported for SNLI; use direct for few-shot."
-        )
+REFERENCE_PROMPTS = {
+    "snli_direct_zero_shot": """You are given a premise and a hypothesis. Classify their relationship as one of: entailment, neutral, or contradiction. Provide only the final label.
 
-    base_header = (
-        "You are given a premise and a hypothesis. "
-        "Classify their relationship as one of: entailment, neutral, or contradiction"
-    )
-    
-    if method == "cot":
-        header = base_header + ", after thinking step by step."
-    else:
-        header = base_header + ". Provide only the final label."
+Premise: A man is walking in the park.
+Hypothesis: A person is outside.
+Answer:""",
 
-    demo = ""
-    if fewshot_examples:
-        chunks = []
-        for p, h, label in fewshot_examples:
-            chunks.append(
-                f"Premise: {p}\nHypothesis: {h}\nAnswer: {label}"
-            )
-        demo = "\n\n".join(chunks) + "\n\n"
+    "snli_cot_zero_shot": """You are given a premise and a hypothesis. Classify their relationship as one of: entailment, neutral, or contradiction, after thinking step by step.
 
-    if method == "cot":
-        query = (
-            f"Premise: {premise}\n"
-            f"Hypothesis: {hypothesis}\n"
-            f"Answer: Let's think step by step."
-        )
-    else:
-        query = (
-            f"Premise: {premise}\n"
-            f"Hypothesis: {hypothesis}\n"
-            f"Answer:"
-        )
+Premise: A man is walking in the park.
+Hypothesis: A person is outside.
+Answer: Let's think step by step.""",
 
-    return f"{header}\n\n{demo}{query}"
+    "snli_direct_few_shot": """You are given a premise and a hypothesis. Classify their relationship as one of: entailment, neutral, or contradiction. Provide only the final label.
 
+Premise: A dog is running.
+Hypothesis: An animal is moving.
+Answer: entailment
 
-def build_gsm_prompt_reference(
-    question: str,
-    method: str,
-    fewshot_examples: Optional[List[Tuple]] = None,
-) -> str:
-    """Reference implementation for GSM prompt building."""
-    if method == "cot":
-        header = (
-            "Solve the following math problem step by step, and provide the final numeric answer."
-        )
-    else:
-        header = (
-            "Solve the following math problem. Provide only the final numeric answer."
-        )
+Premise: The sky is blue.
+Hypothesis: It is raining.
+Answer: contradiction
 
-    demo = ""
-    if fewshot_examples:
-        parts: List[str] = []
-        if method == "cot":
-            for tup in fewshot_examples:
-                if len(tup) != 3:
-                    raise ValueError(
-                        "For GSM CoT few-shot, examples must be (question, solution, final_answer)."
-                    )
-                q, solution, final_ans = tup
-                parts.append(
-                    f"Problem: {q}\nAnswer: Let's think step by step. {solution}. Final answer: {final_ans}."
-                )
-        else:
-            for tup in fewshot_examples:
-                if len(tup) != 2:
-                    raise ValueError(
-                        "For GSM direct few-shot, examples must be (question, final_answer)."
-                    )
-                q, final_ans = tup
-                parts.append(f"Problem: {q}\nAnswer: {final_ans}")
-        demo = "\n\n".join(parts) + "\n\n"
+Premise: A man is walking in the park.
+Hypothesis: A person is outside.
+Answer:""",
 
-    if method == "cot":
-        query = f"Problem: {question}\nAnswer: Let's think step by step."
-    else:
-        query = f"Problem: {question}\nAnswer:"
+    "gsm_direct_zero_shot": """Solve the following math problem. Provide only the final numeric answer.
 
-    return f"{header}\n\n{demo}{query}"
+Problem: John has 5 apples. He gives 2 to Mary. How many apples does John have now?
+Answer:""",
+
+    "gsm_cot_zero_shot": """Solve the following math problem step by step, and provide the final numeric answer.
+
+Problem: John has 5 apples. He gives 2 to Mary. How many apples does John have now?
+Answer: Let's think step by step.""",
+
+    "gsm_direct_few_shot": """Solve the following math problem. Provide only the final numeric answer.
+
+Problem: What is 2 + 2?
+Answer: 4
+
+Problem: What is 10 - 3?
+Answer: 7
+
+Problem: John has 5 apples. He gives 2 to Mary. How many apples does John have now?
+Answer:""",
+}
 
 
 def collect_apply_chat_template_data():
@@ -183,13 +140,8 @@ def collect_build_snli_prompt_data():
             method="direct",
             fewshot_examples=None
         )
-        reference_prompt = build_snli_prompt_reference(
-            premise=premise,
-            hypothesis=hypothesis,
-            method="direct",
-            fewshot_examples=None
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["snli_direct_zero_shot"]
+
         result["test_cases"].append({
             "name": "direct_zero_shot",
             "student_prompt": student_prompt,
@@ -204,13 +156,8 @@ def collect_build_snli_prompt_data():
             method="cot",
             fewshot_examples=None
         )
-        reference_prompt = build_snli_prompt_reference(
-            premise=premise,
-            hypothesis=hypothesis,
-            method="cot",
-            fewshot_examples=None
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["snli_cot_zero_shot"]
+
         result["test_cases"].append({
             "name": "cot_zero_shot",
             "student_prompt": student_prompt,
@@ -230,13 +177,8 @@ def collect_build_snli_prompt_data():
             method="direct",
             fewshot_examples=fewshot_examples
         )
-        reference_prompt = build_snli_prompt_reference(
-            premise=premise,
-            hypothesis=hypothesis,
-            method="direct",
-            fewshot_examples=fewshot_examples
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["snli_direct_few_shot"]
+
         result["test_cases"].append({
             "name": "direct_few_shot",
             "student_prompt": student_prompt,
@@ -269,31 +211,23 @@ def collect_build_gsm_prompt_data():
             method="direct",
             fewshot_examples=None
         )
-        reference_prompt = build_gsm_prompt_reference(
-            question=question,
-            method="direct",
-            fewshot_examples=None
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["gsm_direct_zero_shot"]
+
         result["test_cases"].append({
             "name": "direct_zero_shot",
             "student_prompt": student_prompt,
             "reference_prompt": reference_prompt,
             "prompt_length": len(student_prompt),
         })
-        
+
         # Test case 2: CoT zero-shot
         student_prompt = build_gsm_prompt(
             question=question,
             method="cot",
             fewshot_examples=None
         )
-        reference_prompt = build_gsm_prompt_reference(
-            question=question,
-            method="cot",
-            fewshot_examples=None
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["gsm_cot_zero_shot"]
+
         result["test_cases"].append({
             "name": "cot_zero_shot",
             "student_prompt": student_prompt,
@@ -312,12 +246,8 @@ def collect_build_gsm_prompt_data():
             method="direct",
             fewshot_examples=fewshot_examples_direct
         )
-        reference_prompt = build_gsm_prompt_reference(
-            question=question,
-            method="direct",
-            fewshot_examples=fewshot_examples_direct
-        )
-        
+        reference_prompt = REFERENCE_PROMPTS["gsm_direct_few_shot"]
+
         result["test_cases"].append({
             "name": "direct_few_shot",
             "student_prompt": student_prompt,

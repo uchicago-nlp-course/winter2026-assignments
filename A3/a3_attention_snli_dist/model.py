@@ -103,9 +103,9 @@ class Aggregate(nn.Module):
         pass
 
 class DecomposableAttention(nn.Module):
-    def __init__(self, vocab_size, embed_size, num_hiddens,
-                 num_inputs_attend, num_inputs_compare,
-                 num_inputs_agg, **kwargs):
+    def __init__(self, vocab_size, embed_size, num_hiddens, 
+                 num_inputs_attend=100, num_inputs_compare=200, 
+                 num_inputs_agg=400, **kwargs):
         super(DecomposableAttention, self).__init__(**kwargs)
         # TODO: Implement this method
 

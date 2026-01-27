@@ -63,7 +63,7 @@ def load_snli_splits(seed=0):
         val_data (List[dict]): Cleaned SNLI validation split (same format).
         test_data (List[dict]): Cleaned SNLI test split (same format).
     """
-    snli = load_dataset("snli")
+    snli = load_dataset("stanfordnlp/snli")
 
     def clean_split(split):
         return [

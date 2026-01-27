@@ -30,7 +30,7 @@ def tokenize(text):
 
 def load_sst2_splits():
     """The original `sst2` datatest split does not include ground-truth labels. Instead, we create our own **labeled test set** by splitting the original training set into **train** and **test** with a 80%-20% portion. We still use the official **validation** split for model selection and tuning. Finally, we lower case all texts for consistency."""
-    sst2 = load_dataset("glue", "sst2")
+    sst2 = load_dataset("nyu-mll/glue", "sst2")
     val_data   = sst2["validation"]
 
     # Create train/test split from original training data

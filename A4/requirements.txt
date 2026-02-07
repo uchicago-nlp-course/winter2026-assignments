@@ -1,0 +1,26 @@
+# PyTorch with CUDA (install first via pytorch.org for GPU support)
+torch
+transformers==4.57.6
+accelerate
+
+# HuggingFace datasets
+datasets
+
+# Modal for cloud GPUs
+modal
+
+# Tokenization and serialization
+sentencepiece
+protobuf
+
+# Data processing and visualization
+jupyter
+pandas
+numpy
+matplotlib
+scikit-learn
+nltk
+tqdm
+
+# Experiment tracking
+wandb

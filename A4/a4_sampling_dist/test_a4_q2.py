@@ -156,7 +156,7 @@ def collect_analyze_traces_data():
             try:
                 tc_res["output"] = get_unique_preds_count(tc["preds"])
                 tc_res["reference"] = tc["expected_unique"]
-                print(f"  [PASS] get_unique_preds_count: {tc['name']}")
+                print(f"  [DONE] get_unique_preds_count: {tc['name']}")
             except Exception as e:
                 tc_res["error"] = str(e)
                 print(f"  [FAIL] get_unique_preds_count: {tc['name']} - Error: {e}")
@@ -178,7 +178,7 @@ def collect_analyze_traces_data():
                     tc["preds"], tc["gold_val"], tc["has_any_correct"]
                 )
                 tc_res["reference"] = tc["expected_maj_fail"]
-                print(f"  [PASS] check_majority_failure: {tc['name']}")
+                print(f"  [DONE] check_majority_failure: {tc['name']}")
             except Exception as e:
                 tc_res["error"] = str(e)
                 print(f"  [FAIL] check_majority_failure: {tc['name']} - Error: {e}")
@@ -201,7 +201,7 @@ def collect_analyze_traces_data():
                     tc["scores"], tc["preds"], tc["gold_val"], tc["has_any_correct"]
                 )
                 tc_res["reference"] = tc["expected_fail"]
-                print(f"  [PASS] check_bon_failure: {tc['name']}")
+                print(f"  [DONE] check_bon_failure: {tc['name']}")
             except Exception as e:
                 tc_res["error"] = str(e)
                 print(f"  [FAIL] check_bon_failure: {tc['name']} - Error: {e}")
@@ -239,7 +239,7 @@ def collect_evaluate_data():
                     "majority": tc["expected_majority"],
                     "bon": tc["expected_bon"]
                 }
-                print(f"  [PASS] evaluate_example_{i}")
+                print(f"  [DONE] evaluate_example_{i}")
             except Exception as e:
                 tc_res["error"] = str(e)
                 print(f"  [FAIL] evaluate_example_{i} - Error: {e}")
@@ -282,7 +282,7 @@ def collect_evaluate_data():
                     result["traceback"] = traceback.format_exc()
             
             if result.get("success"):
-                print("  [PASS] evaluate.main()")
+                print("  [DONE] evaluate.main()")
             else:
                 print(f"  [FAIL] evaluate.main() - Error: {result.get('error')}")
 

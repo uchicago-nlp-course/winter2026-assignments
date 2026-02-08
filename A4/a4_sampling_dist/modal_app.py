@@ -6,8 +6,9 @@ app = modal.App("a4-sampling")
 # Volumes (persistent across runs)
 # ---------------------------------------------------------------------------
 hf_cache_vol = modal.Volume.from_name("a4-hf-cache", create_if_missing=True)
-# This volume contains the SFT checkpoints from Part 1
+# This volume contains the SFT checkpoints from Part 1. Change this if you used a different volume name in Part 1.
 output_vol = modal.Volume.from_name("a4-output", create_if_missing=True)
+# Change this if you want to use a different volume name
 sampling_results_vol = modal.Volume.from_name("a4-sampling-results", create_if_missing=True)
 
 # ---------------------------------------------------------------------------

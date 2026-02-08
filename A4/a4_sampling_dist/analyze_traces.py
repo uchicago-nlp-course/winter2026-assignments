@@ -67,9 +67,6 @@ def analyze_failure_modes(data: list[dict], output_path: str = "results/failure_
         
         unique_preds = set(valid_preds)
         num_unique = len(unique_preds)
-        
-        # We need these checks for the analysis
-        # (Students should have implemented these above)
         is_correct = [eq_num(p, gold_val) for p in preds]
         has_any_correct = any(is_correct)
         
@@ -136,6 +133,8 @@ def analyze_failure_modes(data: list[dict], output_path: str = "results/failure_
             f.write(f"BoN Selected Answer: {case['best_val']}\n")
             f.write(f"Answer Distribution: {case['counts']}\n")
             f.write("\nSamples:\n")
+            
+            # Show Gold sample and BoN Selected sample
             found_gold = False
             for s_idx, p in enumerate(case['preds']):
                 if eq_num(p, case['gold']) and not found_gold:
@@ -206,7 +205,8 @@ def main():
         preds = [extract_gsm_answer(s["text"]) for s in samples]
         
         # 1. Answer distribution
-        stats["unique_answers_per_q"].append(get_unique_preds_count(preds))
+        unique_count = get_unique_preds_count(preds)
+        stats["unique_answers_per_q"].append(unique_count)
         
         is_correct = [eq_num(p, gold_val) for p in preds]
         correct_count = sum(is_correct)

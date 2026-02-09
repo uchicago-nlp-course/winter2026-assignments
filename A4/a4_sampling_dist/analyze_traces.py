@@ -92,18 +92,18 @@ def analyze_failure_modes(data: list[dict], output_path: str = "results/failure_
             "preds": preds
         }
         
-        if num_unique == 3:
+        if num_unique >= 3:
             if is_maj_fail: majority_failures.append(info)
             if is_bon_fail: bon_failures.append(info)
 
     print(f"Saving failure mode analysis to {output_path}...")
     with open(output_path, "w") as f:
         f.write("="*80 + "\n")
-        f.write("PART 2: FAILURE MODE ANALYSIS (3 UNIQUE ANSWERS)\n")
+        f.write("PART 2: FAILURE MODE ANALYSIS (>=3 UNIQUE ANSWERS)\n")
         f.write("="*80 + "\n\n")
         
         f.write("INSTRUCTIONS:\n")
-        f.write("Select 3 cases from the Majority Voting Failures section and 3 cases from the Best-of-N section.\n")
+        f.write("Select >=3 cases from the Majority Voting Failures section and >=3 cases from the Best-of-N section.\n")
         f.write("Analyze the failure modes for each selected case.\n\n")
 
         f.write("1. MAJORITY VOTING FAILURES\n")
